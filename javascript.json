@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Which Lang runs in web browser?",
+        "a": "Java",
+        "b": "phython",
+        "c": "C#",
+        "d": "Javascript",
+        "correct": "d"
+    },
+    {
+        "question": "What CSS stands for?",
+        "a": "central style sheet",
+        "b": "Cascading style sheet",
+        "c": "Cascading simple sheet",
+        "d": "Cascading style sail",
+        "correct": "b"
+    }
+]

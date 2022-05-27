@@ -12,6 +12,13 @@
 
 <body>
     <div class="container mt-5 pt-5 bg-light" id="quizContainer">
+        
+        <div class="header mb-5 mx-auto">
+            <button type="button" id='htmlQuiz'class="btn btn-primary btn-sm">HTML Quiz</button>
+            <button type="button" class="btn btn-info btn-sm">CSS Quiz</button>
+            <button type="button" id='jsQuiz'class="btn btn-warning btn-sm">JS Quiz</button>
+            <button type="button" class="btn btn-success btn-sm">React Quiz</button>
+        </div>
         <div class="card">
             <div class="card-header card-body" id="questionList">
                 Question Text
@@ -20,7 +27,7 @@
                 <li class="list-group-item">
                     <div class="form-check">
                         <input class="form-check-input answerList" type="radio" name="answer" id="a">
-                        <label class="form-check-label" for="a" id="a_option" >
+                        <label class="form-check-label" for="a" id="a_option">
                             Default Option1
                         </label>
                     </div>
@@ -28,7 +35,7 @@
                 <li class="list-group-item">
                     <div class="form-check">
                         <input class="form-check-input answerList" type="radio" name="answer" id="b">
-                        <label class="form-check-label" for="b" id="b_option" >
+                        <label class="form-check-label" for="b" id="b_option">
                             Default Option2
                         </label>
                     </div>
@@ -36,7 +43,7 @@
                 <li class="list-group-item">
                     <div class="form-check">
                         <input class="form-check-input answerList" type="radio" name="answer" id="c">
-                        <label class="form-check-label" for="c" id="c_option" >
+                        <label class="form-check-label" for="c" id="c_option">
                             Default Option3
                         </label>
                     </div>
@@ -44,21 +51,22 @@
                 <li class="list-group-item">
                     <div class="form-check">
                         <input class="form-check-input answerList" type="radio" name="answer" id="d">
-                        <label class="form-check-label" for="d" id="d_option" >
+                        <label class="form-check-label" for="d" id="d_option">
                             Default Option4
                         </label>
                     </div>
                 </li>
             </ul>
 
-        <!-- button -->
+            <!-- button -->
         </div>
-        <div class="d-grid gap-2 col-2 mx-auto" >
+        <div class="d-grid gap-2 col-2 mx-auto">
             <button id='button' class="btn btn-primary mt-3 mb-3" type="button">Submit</button>
 
         </div>
     </div>
     <script src="./script.js"></script>
+    <!-- <script src="./script2.js"></script> -->
 </body>
 
 </html>
