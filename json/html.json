@@ -17,26 +17,26 @@
     },
     {
         "question": "Which of the following element is responsible for making the text bold in HTML?",
-        "a": "<pre>",
-        "b": "<a>",
-        "c": "<b>",
-        "d": "<br>",
+        "a": "pre tag",
+        "b": "anchor tag",
+        "c": "bold tag",
+        "d": "break tag",
         "correct": "c"
     },
     {
         "question": "Which of the following tag is used for inserting the largest heading in HTML?",
-        "a": "<h3>",
-        "b": "<h1>",
-        "c": "<h5>",
-        "d": "<h6>",
+        "a": "h3",
+        "b": "h1",
+        "c": "h5",
+        "d": "h6",
         "correct": "b"
     },
     {
         "question": "Which of the following tag is used to insert a line-break in HTML?",
-        "a": "<pre>",
-        "b": "<a>",
-        "c": "<b>",
-        "d": "<br>",
+        "a": "pre tag",
+        "b": "anchor tag",
+        "c": "bold tag",
+        "d": "break tag",
         "correct": "a"
     }
 ]
